@@ -11,6 +11,7 @@ permalink: /plan/
   <a href="#week-{{ forloop.index }}" class="seg">{{ week.name }}</a>
   {% endfor %}
 </div>
+<p class="grid-link"><a href="{{ '/plan/grid/' | relative_url }}">Printable grid view &rarr;</a></p>
 
 {% assign slots = "b,s,l,t" | split: "," %}
 {% for week in site.data.plan.weeks %}

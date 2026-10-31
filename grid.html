@@ -1,0 +1,56 @@
+---
+title: Plan grid
+nav: plan
+body_class: grid-page
+permalink: /plan/grid/
+---
+<div class="grid-intro">
+  <h1>Plan grid</h1>
+  <p class="lede">Both weeks at a glance. Prints on A4 landscape, one week per page.</p>
+  <p class="grid-actions">
+    <button class="chip" onclick="window.print()">Print</button>
+    <a class="chip" href="{{ '/plan/' | relative_url }}">Back to plan</a>
+  </p>
+</div>
+
+{% assign slots = "b,s,l,t" | split: "," %}
+{% assign slot_names = "Breakfast,Snack,Lunch,Tea" | split: "," %}
+{% for week in site.data.plan.weeks %}
+<section class="grid-week">
+  <h2>{{ week.name }} <span class="muted">(repeat for Week {{ forloop.index | plus: 2 }} and Week {{ forloop.index | plus: 4 }})</span></h2>
+  <div class="grid-scroll">
+    <table class="meal-grid">
+      <thead>
+        <tr>
+          <th scope="col" class="corner"></th>
+          {% for d in week.days %}<th scope="col">{{ d.day }}</th>{% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for slot in slots %}
+        {% assign label_key = slot | append: "_label" %}
+        <tr>
+          <th scope="row">{{ slot_names[forloop.index0] }}</th>
+          {% for d in week.days %}
+            {% assign code = d[slot] %}
+            {% assign r = site.recipes | where: "code", code | first %}
+            <td>
+              <a href="{{ r.url | relative_url }}">
+                <span class="code code-{{ r.meal }}">{{ code }}</span>
+                <span class="cell-text">{% if d[label_key] %}{{ d[label_key] }}{% else %}{{ r.title }}{% endif %}</span>
+              </a>
+            </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Day total</th>
+          {% for d in week.days %}<td>~{{ d.kcal }} kcal</td>{% endfor %}
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</section>
+{% endfor %}

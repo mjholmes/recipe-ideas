@@ -293,3 +293,85 @@ h2 { font-size: 1.15rem; margin: 1.6em 0 0.5em; }
 @media (min-width: 640px) {
   .cards { grid-template-columns: 1fr 1fr; }
 }
+
+/* Plan grid page */
+.wrap.grid-page { max-width: 1280px; }
+
+.grid-link { margin: 10px 0 0; font-size: 15px; }
+
+.grid-actions { display: flex; gap: 8px; }
+
+.grid-week h2 .muted { font-weight: 400; font-size: 0.85em; }
+
+.grid-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+.meal-grid {
+  width: 100%;
+  min-width: 860px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: var(--surface);
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.meal-grid th,
+.meal-grid td {
+  border: 1px solid var(--line);
+  padding: 8px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.meal-grid thead th { background: var(--chip); text-align: center; }
+
+.meal-grid .corner,
+.meal-grid tbody th,
+.meal-grid tfoot th { width: 88px; background: var(--chip); }
+
+.meal-grid tbody th, .meal-grid tfoot th { position: sticky; left: 0; z-index: 1; }
+
+.meal-grid td a { display: block; color: var(--ink); text-decoration: none; }
+
+.meal-grid .code { display: inline-block; margin-bottom: 4px; font-size: 12px; min-width: 2.6em; }
+
+.meal-grid .cell-text { display: block; }
+
+.meal-grid tfoot td { color: var(--muted); font-size: 13px; text-align: center; }
+
+@media print {
+  @page { size: A4 landscape; margin: 10mm; }
+
+  :root {
+    --bg: #fff; --surface: #fff; --ink: #000; --muted: #444;
+    --line: #999; --chip: #eee;
+  }
+
+  body { font-size: 11pt; }
+
+  .site-header, .grid-intro { display: none; }
+
+  .wrap, .wrap.grid-page { max-width: none; padding: 0; }
+
+  .grid-week { break-after: page; }
+  .grid-week:last-child { break-after: auto; }
+
+  .grid-week h2 { margin: 0 0 6px; font-size: 14pt; }
+
+  .grid-scroll { overflow: visible; }
+
+  .meal-grid { min-width: 0; font-size: 11pt; }
+
+  .meal-grid th, .meal-grid td { padding: 8px 6px; height: 33mm; }
+
+  .meal-grid thead th, .meal-grid tfoot th, .meal-grid tfoot td { height: auto; }
+
+  .meal-grid tbody th { position: static; }
+
+  .meal-grid tbody tr { break-inside: avoid; }
+
+  .meal-grid thead th,
+  .meal-grid tbody th,
+  .meal-grid tfoot th,
+  .code { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
