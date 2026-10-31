@@ -9,7 +9,12 @@
   }
 
   items.forEach(function (li) {
-    var key = li.textContent.trim();
+    // Key on the week heading too, so the same item in Week 1 and Week 2 ticks separately.
+    var section = '';
+    for (var el = li.closest('ul'); el; el = el.previousElementSibling) {
+      if (el.tagName === 'H2') { section = el.textContent.trim(); break; }
+    }
+    var key = section + '|' + li.textContent.trim();
     li.setAttribute('role', 'checkbox');
     li.tabIndex = 0;
     function show() {

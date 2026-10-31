@@ -2,7 +2,7 @@
 title: Banana & a Square of Dark Chocolate
 code: S9
 meal: snack
-group: extra
+group: plan
 kcal: ~140 kcal per portion
 kcal_num: 140
 yield: serves 2

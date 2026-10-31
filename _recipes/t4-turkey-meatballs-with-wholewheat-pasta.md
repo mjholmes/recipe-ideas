@@ -2,7 +2,7 @@
 title: Turkey Meatballs with Wholewheat Pasta
 code: T4
 meal: tea
-group: plan
+group: extra
 kcal: ~550 kcal per portion
 kcal_num: 550
 yield: serves 2

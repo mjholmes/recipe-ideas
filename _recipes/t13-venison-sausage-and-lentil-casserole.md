@@ -2,7 +2,7 @@
 title: Venison Sausage & Lentil Casserole
 code: T13
 meal: tea
-group: extra
+group: plan
 kcal: ~540 kcal per portion
 kcal_num: 540
 yield: serves 2

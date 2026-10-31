@@ -2,7 +2,7 @@
 title: Chicken Souvlaki Flatbreads
 code: T8
 meal: tea
-group: extra
+group: plan
 kcal: ~545 kcal per portion
 kcal_num: 545
 yield: serves 2

@@ -2,7 +2,7 @@
 title: Quiche, New Potatoes & Big Salad
 code: T15
 meal: tea
-group: extra
+group: plan
 kcal: ~500-550 kcal per portion
 kcal_num: 500
 yield: serves 2

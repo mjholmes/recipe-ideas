@@ -4,7 +4,7 @@ Our ~1,400 kcal a day meal plan for two, as a small website that works on a phon
 
 - **Recipes** (home page): search by any ingredient or word, filter by meal (breakfast, snack, lunch, tea), by set (in the plan, extra, freezer extra), and by ingredient tags.
 - **Plan**: the two-week calendar. Repeat it three times for six weeks.
-- **Shopping**: the weekly list. Tap items to tick them off; ticks are remembered on that phone.
+- **Shopping**: a list for each week of the plan, plus the things to use up first. Tap items to tick them off; ticks are remembered on that phone.
 
 ## Adding or editing a recipe
 

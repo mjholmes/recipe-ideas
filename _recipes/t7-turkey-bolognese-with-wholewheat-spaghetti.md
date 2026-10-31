@@ -2,7 +2,7 @@
 title: Turkey Bolognese with Wholewheat Spaghetti
 code: T7
 meal: tea
-group: plan
+group: extra
 kcal: ~560 kcal per portion
 kcal_num: 560
 yield: serves 2

@@ -2,7 +2,7 @@
 title: Porridge with Banana & Cinnamon
 code: B6
 meal: breakfast
-group: plan
+group: extra
 kcal: ~300 kcal per portion
 kcal_num: 300
 yield: serves 2

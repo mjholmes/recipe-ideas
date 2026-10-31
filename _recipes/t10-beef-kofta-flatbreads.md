@@ -2,7 +2,7 @@
 title: Beef Kofta Flatbreads
 code: T10
 meal: tea
-group: extra
+group: plan
 kcal: ~480 kcal per portion
 kcal_num: 480
 yield: serves 2

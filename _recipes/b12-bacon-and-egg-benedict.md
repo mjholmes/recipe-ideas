@@ -2,7 +2,7 @@
 title: Bacon & Egg Benedict
 code: B12
 meal: breakfast
-group: extra
+group: plan
 kcal: ~420 kcal per portion
 kcal_num: 420
 yield: serves 2
