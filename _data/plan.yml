@@ -1,0 +1,21 @@
+# Two-week cycle. Repeat Weeks 1-2 for Weeks 3-4 and Weeks 5-6.
+# Each meal is a recipe code. An optional *_label overrides the recipe title.
+weeks:
+  - name: Week 1
+    days:
+      - { day: Mon, b: B1, s: S1, l: L1, t: T1, kcal: "1,420" }
+      - { day: Tue, b: B2, s: S2, l: L2, t: T2, kcal: "1,400" }
+      - { day: Wed, b: B3, s: S3, l: L3, t: T3, kcal: "1,380", t_label: "Lean Beef Chilli with Rice (batch cook)" }
+      - { day: Thu, b: B4, s: S4, l: L7, t: T4, kcal: "1,370", l_label: "Leftover Chilli & Rice" }
+      - { day: Fri, b: B5, s: S5, l: L4, t: T5, kcal: "1,360" }
+      - { day: Sat, b: B6, s: S6, l: L5, t: T6, kcal: "1,390" }
+      - { day: Sun, b: B7, s: S7, l: L6, t: T7, kcal: "1,380", t_label: "Turkey Bolognese with Wholewheat Spaghetti (batch cook)" }
+  - name: Week 2
+    days:
+      - { day: Mon, b: B2, s: S1, l: L7, t: T1, kcal: "1,430", l_label: "Leftover Bolognese & Pasta" }
+      - { day: Tue, b: B1, s: S3, l: L1, t: T3, kcal: "1,400", t_label: "Lean Beef Chilli with Rice (batch cook)" }
+      - { day: Wed, b: B4, s: S2, l: L7, t: T2, kcal: "1,400", l_label: "Leftover Chilli & Rice" }
+      - { day: Thu, b: B3, s: S5, l: L2, t: T5, kcal: "1,340" }
+      - { day: Fri, b: B6, s: S4, l: L4, t: T6, kcal: "1,350" }
+      - { day: Sat, b: B5, s: S6, l: L5, t: T7, kcal: "1,410", t_label: "Turkey Bolognese with Wholewheat Spaghetti (batch cook)" }
+      - { day: Sun, b: B7, s: S7, l: L7, t: T4, kcal: "1,390", l_label: "Leftover Bolognese & Pasta" }

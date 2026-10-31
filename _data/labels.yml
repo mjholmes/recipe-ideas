@@ -1,0 +1,10 @@
+meals:
+  breakfast: Breakfast
+  snack: Snack
+  lunch: Lunch
+  tea: Tea
+
+groups:
+  plan: In the plan
+  extra: Extra
+  freezer: Freezer extra

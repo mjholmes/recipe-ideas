@@ -1,0 +1,26 @@
+title: Meal Plan
+description: Our ~1,400 kcal a day meal plan and recipe collection
+baseurl: /recipe-ideas
+
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md

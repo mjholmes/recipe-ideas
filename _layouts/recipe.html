@@ -1,0 +1,31 @@
+---
+layout: default
+nav: recipes
+---
+<article class="recipe">
+  <a class="back" href="{{ '/' | relative_url }}" onclick="if (document.referrer.indexOf(location.host) !== -1 && history.length > 1) { history.back(); return false; }">&larr; All recipes</a>
+
+  <p class="eyebrow">
+    <span class="code code-{{ page.meal }}">{{ page.code }}</span>
+    {{ site.data.labels.meals[page.meal] }} &middot; {{ site.data.labels.groups[page.group] }}
+  </p>
+  <h1>{{ page.title }}</h1>
+  <p class="facts"><strong>{{ page.kcal }}</strong> &middot; {{ page.yield }}</p>
+
+  {% if page.tags.size > 0 %}
+  <ul class="tags">
+    {% for tag in page.tags %}<li><a class="chip" href="{{ '/' | relative_url }}?tag={{ tag | uri_escape }}">{{ tag }}</a></li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  <h2>Ingredients</h2>
+  <ul class="ingredients">
+    {% for item in page.ingredients %}
+    <li><label><input type="checkbox"> <span>{{ item }}</span></label></li>
+    {% endfor %}
+  </ul>
+
+  <div class="method">
+    {{ content }}
+  </div>
+</article>

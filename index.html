@@ -1,0 +1,46 @@
+---
+title: Recipes
+nav: recipes
+---
+<div class="finder">
+  <label class="search">
+    <span class="visually-hidden">Search recipes</span>
+    <input id="q" type="search" placeholder="Search: lentils, chicken feta, T12" autocomplete="off" enterkeyhint="search">
+  </label>
+
+  <div class="chip-row" id="meal-filter" role="group" aria-label="Meal">
+    <button class="chip" data-meal="" aria-pressed="true">All</button>
+    {% for m in site.data.labels.meals %}<button class="chip" data-meal="{{ m[0] }}" aria-pressed="false">{{ m[1] }}</button>{% endfor %}
+  </div>
+
+  <div class="chip-row" id="group-filter" role="group" aria-label="Set">
+    <button class="chip" data-group="" aria-pressed="true">Any set</button>
+    {% for g in site.data.labels.groups %}<button class="chip" data-group="{{ g[0] }}" aria-pressed="false">{{ g[1] }}</button>{% endfor %}
+  </div>
+
+  <details class="tag-panel" id="tag-panel">
+    <summary>Ingredients &amp; tags <span id="tag-count"></span></summary>
+    <div class="chip-row wrap-row" id="tag-filter" role="group" aria-label="Tags"></div>
+  </details>
+
+  <p class="result-line"><span id="count"></span> <button id="clear" class="link-btn" hidden>Clear filters</button></p>
+</div>
+
+<ul class="cards" id="cards">
+{% assign items = site.recipes | sort: "order" %}
+{% for r in items %}
+  {% capture haystack %}{{ r.code }} {{ r.title }} {{ r.tags | join: " " }} {{ r.ingredients | join: " " }}{% endcapture %}
+  <li class="card" data-meal="{{ r.meal }}" data-group="{{ r.group }}" data-tags="{{ r.tags | join: '|' | escape }}" data-search="{{ haystack | downcase | strip_newlines | escape }}">
+    <a href="{{ r.url | relative_url }}">
+      <span class="code code-{{ r.meal }}">{{ r.code }}</span>
+      <span class="card-body">
+        <span class="card-title">{{ r.title }}</span>
+        <span class="card-meta">{{ r.kcal }}{% if r.group != 'plan' %} &middot; {{ site.data.labels.groups[r.group] }}{% endif %}</span>
+      </span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="empty" id="empty" hidden>No recipes match. Try fewer words or clear a filter.</p>
+
+<script src="{{ '/assets/finder.js' | relative_url }}"></script>
