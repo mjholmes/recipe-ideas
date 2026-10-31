@@ -2,7 +2,7 @@
 title: Oven-Baked Chicken, Bacon & Pea Risotto
 code: T11
 meal: tea
-group: extra
+group: plan
 kcal: ~580 kcal per portion
 kcal_num: 580
 yield: serves 2

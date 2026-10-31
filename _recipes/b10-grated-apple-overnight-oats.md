@@ -2,7 +2,7 @@
 title: Grated Apple Overnight Oats
 code: B10
 meal: breakfast
-group: extra
+group: plan
 kcal: ~310 kcal per portion
 kcal_num: 310
 yield: serves 2

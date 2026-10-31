@@ -2,7 +2,7 @@
 title: Yellow Split Pea Dhal with Flatbread
 code: L9
 meal: lunch
-group: extra
+group: plan
 kcal: ~355 kcal per portion
 kcal_num: 355
 yield: makes 4

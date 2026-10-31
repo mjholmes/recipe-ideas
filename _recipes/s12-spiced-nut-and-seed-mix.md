@@ -2,7 +2,7 @@
 title: Spiced Nut & Seed Mix
 code: S12
 meal: snack
-group: extra
+group: plan
 kcal: ~150 kcal per 25g portion
 kcal_num: 150
 yield: makes about 8 portions

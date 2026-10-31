@@ -2,7 +2,7 @@
 title: Prawn, Noodle & Veg Salad
 code: L6
 meal: lunch
-group: plan
+group: extra
 kcal: ~380 kcal per portion
 kcal_num: 380
 yield: serves 2

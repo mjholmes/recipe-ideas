@@ -2,7 +2,7 @@
 title: Turkey & Salad Sandwich
 code: L3
 meal: lunch
-group: plan
+group: extra
 kcal: ~400 kcal per portion
 kcal_num: 400
 yield: serves 2

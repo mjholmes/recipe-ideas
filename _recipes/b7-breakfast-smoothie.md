@@ -2,7 +2,7 @@
 title: Breakfast Smoothie
 code: B7
 meal: breakfast
-group: plan
+group: extra
 kcal: ~320 kcal per portion
 kcal_num: 320
 yield: serves 2

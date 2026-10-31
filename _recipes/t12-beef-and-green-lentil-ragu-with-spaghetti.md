@@ -2,7 +2,7 @@
 title: Beef & Green Lentil Ragu with Spaghetti
 code: T12
 meal: tea
-group: extra
+group: plan
 kcal: ~535 kcal per portion
 kcal_num: 535
 yield: makes 4

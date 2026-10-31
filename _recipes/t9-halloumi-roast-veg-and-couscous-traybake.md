@@ -2,7 +2,7 @@
 title: Halloumi, Roast Veg & Couscous Traybake
 code: T9
 meal: tea
-group: extra
+group: plan
 kcal: ~500 kcal per portion
 kcal_num: 500
 yield: serves 2

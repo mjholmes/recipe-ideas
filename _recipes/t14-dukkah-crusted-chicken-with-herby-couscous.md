@@ -2,7 +2,7 @@
 title: Dukkah-Crusted Chicken with Herby Couscous
 code: T14
 meal: tea
-group: extra
+group: plan
 kcal: ~500 kcal per portion
 kcal_num: 500
 yield: serves 2

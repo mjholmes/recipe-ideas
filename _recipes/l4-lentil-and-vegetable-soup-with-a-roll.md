@@ -2,7 +2,7 @@
 title: Lentil & Vegetable Soup with a Roll
 code: L4
 meal: lunch
-group: plan
+group: extra
 kcal: ~380 kcal per portion
 kcal_num: 380
 yield: serves 2

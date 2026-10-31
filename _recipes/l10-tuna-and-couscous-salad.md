@@ -2,7 +2,7 @@
 title: Tuna & Couscous Salad
 code: L10
 meal: lunch
-group: extra
+group: plan
 kcal: ~405 kcal per portion
 kcal_num: 405
 yield: serves 2

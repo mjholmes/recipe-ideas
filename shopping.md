@@ -5,85 +5,153 @@ body_class: shopping
 permalink: /shopping/
 ---
 
-# Weekly shopping list
+# Shopping list
 
-The breakfasts, snacks and teas repeat each week, so this one list covers a week's shop. Store-cupboard items (spices, oils, tins) last beyond a week, so just top up as needed. It doesn't include the extra or freezer recipes, since those are swaps rather than part of the weekly shop.
+There's a separate list for each week of the plan. Quantities are what the recipes use, so round up to pack sizes. Check the cupboard before you shop, as spices, oils, honey and peanut butter last beyond a week. The extra and freezer recipes aren't included, since those are swaps rather than part of the plan.
 {: .lede}
 
-## Fruit & veg
+## Use these up first
 
-- 6 bananas
+The plan was built around these, so you should already have most of them. The amounts are what the two weeks need, so top up anything you're short of.
+
+- Chicken breasts (about 2.1kg in total: about 1kg in Week 1, about 1.1kg in Week 2)
+- 5% fat beef mince (550g in Week 1, 500g in Week 2)
+- Back bacon (9 rashers in Week 1, 2 in Week 2)
+- 4 venison sausages (Week 1)
+- Quiche (Week 1)
+- Lighter halloumi (125g, Week 2)
+- Hollandaise sauce (about 6 tbsp in Week 1, 2 tbsp in Week 2)
+- Greek flatbreads (2 in Week 1, 4 in Week 2)
+- Garlic bread (2 slices, Week 1)
+- Tinned tuna in spring water (4 tins each week)
+- Couscous (200g each week)
+- Arborio rice (150g, Week 1)
+- Dried green lentils (250g, Week 1)
+- Yellow split peas (200g each week)
+- Mixed nuts, almonds, hazelnuts, walnuts and mixed seeds
+
+## Week 1
+
+### Fruit & veg
+
+- Mixed berries, fresh or frozen (about 460g)
+- 4 bananas
 - 2 apples
 - 2 oranges
-- Mixed berries (fresh or frozen, ~260g)
+- 2 lemons
 - 1 avocado
-- Lemons (x3, for T1, T5 and dressings)
-- 1 bag baby spinach
+- 3-4 cucumbers
+- Cherry tomatoes (about 400g)
+- 2 large tomatoes
+- 3 bags mixed salad leaves and 1 lettuce
 - 100g mushrooms
-- 100g cherry tomatoes
-- 2-3 large tomatoes
-- Cucumbers (x2-3)
-- 2 lettuces or bags of mixed salad leaves
+- 5 onions
+- 2 red onions
+- 7 carrots
+- 1 head of celery (5 sticks)
+- Garlic bulb
+- Fresh parsley and mint
+- New potatoes (900g)
+- Tenderstem broccoli (200g)
+- Green veg for the casserole (about 200g)
+- Frozen peas (150g)
+
+### Dairy, eggs & chilled
+
+- 1 dozen eggs
+- Fat-free Greek yogurt (about 1.4kg)
+- Semi-skimmed milk (1 pint)
+- Feta (100g)
+- Parmesan (20g)
+- Hummus
+
+### Bread & bakery
+
+- Small wholemeal loaf
+- 2 English muffins
+- 2 wholemeal wraps
+
+### Store cupboard
+
+- Granola (180g)
+- Rolled oats (80g)
+- Oatcakes or Ryvita
+- Dried spaghetti (120g)
+- Tinned chopped tomatoes (x3) and tomato purée
+- Tinned sweetcorn (260g)
+- 1 tin mixed beans
+- 1 tin chickpeas
+- Chicken and vegetable stock cubes
+- Dark chocolate (70%+)
+- Sesame seeds, cumin seeds, coriander seeds
+- Smoked paprika, cumin, ground coriander, dried oregano, thyme, bay leaf, chilli
+- Light dressing or vinaigrette
+- Olive oil and spray oil
+
+## Week 2
+
+### Fruit & veg
+
+- Mixed berries, fresh or frozen (about 360g)
+- 2 bananas
+- 1 apple
+- 2 oranges
+- 4 lemons
+- 1 avocado
+- 3 cucumbers
+- Cherry tomatoes (about 300g)
+- 2 large tomatoes
+- 2 bags mixed salad leaves and 1 lettuce
+- 1 bag baby spinach
+- 3 onions
+- 3 red onions
+- 4 peppers (at least 1 red)
+- 1 courgette
+- 2 carrots
+- Garlic bulb
+- Root ginger
+- Fresh parsley and mint
 - New potatoes (400g)
 - Potatoes for mash (400g)
-- Green beans or broccoli (400g total)
-- Mixed stir-fry veg (300g)
-- 2 peppers (fajitas), 1 pepper (chilli), plus peppers for the noodle salad
-- 2 onions
-- Garlic bulb
-- 2 carrots (soup), 2 carrots (bolognese), plus a carrot for the stir-fry
-- 2 celery sticks
-- Spring onion
-- Root ginger
-- Fresh or dried herbs (basil, oregano)
+- Green beans or broccoli (400g)
+- Stir-fry veg (300g)
 
-## Meat & fish
+### Meat & fish
 
 - 2 salmon fillets
 - 2 cod fillets
-- 300g chicken breast x2 (stir-fry and fajitas)
-- 500g lean beef mince (5% fat)
-- 500g lean turkey mince (bolognese)
-- 400g lean turkey mince (meatballs)
-- 200g cooked king prawns (Week 1 only)
-- 160g sliced roast turkey (Week 1 only)
-- 200g cooked chicken breast (for wraps, or use extra from the stir-fry)
 
-## Dairy, eggs & chilled
+### Dairy, eggs & chilled
 
-- 2L semi-skimmed milk
 - 1 dozen eggs
-- 800g fat-free Greek yogurt
+- Fat-free Greek yogurt (about 1.25kg)
+- Semi-skimmed milk (1 pint)
 - 2 low-fat fruit yogurt pots
-- Feta (100g)
-- Low-fat soured cream (optional)
+- Reduced-fat feta (110g)
 - Hummus
+- Low-fat soured cream (optional)
 
-## Store cupboard & dry goods
+### Bread & bakery
 
-- Rolled or porridge oats (500g bag)
-- Granola (60g)
-- Honey
-- Peanut butter
+- Small wholemeal loaf
+- 2 English muffins
+- 6 small wholemeal wraps
+
+### Store cupboard
+
+- Granola (120g)
+- Rolled oats (160g)
 - Oatcakes or Ryvita
-- Mixed nuts, almonds, walnuts
 - Rice (400g)
-- Wholewheat pasta (200g) and spaghetti (240g)
-- Noodles (Week 1 only, 150g)
-- Red lentils (150g)
-- Tinned chickpeas, kidney beans, mixed beans, tuna (2 tins), sweetcorn
-- Tinned chopped tomatoes (x4) and tomato purée
-- Vegetable stock
-- Breadcrumbs
-- Chilli powder, cumin, fajita seasoning, cinnamon
-- Soy sauce, salsa
-- Olive oil and spray oil
-
-## Bread & bakery
-
-- Wholemeal bread loaf
-- Wholemeal wraps (6-8, small)
-- Wholemeal rolls (2)
+- Tinned chopped tomatoes (x2)
+- Tinned sweetcorn (260g)
+- 1 tin kidney beans
+- 1 tin mixed beans
+- 1 tin chickpeas
+- Vegetable stock cubes
+- Turmeric, garam masala, cumin seeds, chilli powder, cumin, cinnamon, fajita seasoning
+- Soy sauce and salsa
+- Shelled edamame (optional, instead of boiled eggs for the S7 snack)
 
 <p><button class="link-btn" id="reset-ticks">Untick everything</button></p>
 

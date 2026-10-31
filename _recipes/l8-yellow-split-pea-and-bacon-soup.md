@@ -2,7 +2,7 @@
 title: Yellow Split Pea & Bacon Soup
 code: L8
 meal: lunch
-group: extra
+group: plan
 kcal: ~280 kcal per portion
 kcal_num: 280
 yield: makes 4
